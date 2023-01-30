@@ -123,8 +123,6 @@ span:hover {
   width: 100%;
   height: 100%;
   border-radius: 8px;
-  /* background-color: #00fff8; */
-  opacity: 0.5;
   cursor: pointer;
 }
 .eye-image {
@@ -132,7 +130,7 @@ span:hover {
   position: absolute;
 }
 .hover-box:hover {
-  background: #00fff8;
+  background-color: rgba(0, 255, 248, 0.5);
   transition: 1s;
 }
 .hover-box:hover .eye-image {
